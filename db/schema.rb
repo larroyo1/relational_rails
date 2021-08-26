@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2021_08_26_000332) do
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
-    t.integer "album_count"
+    t.integer "debut_year"
     t.boolean "grammy_winner"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
