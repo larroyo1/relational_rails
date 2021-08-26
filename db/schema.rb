@@ -10,15 +10,32 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_25_235039) do
+ActiveRecord::Schema.define(version: 2021_08_26_000332) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "actors", force: :cascade do |t|
+    t.string "name"
+    t.integer "year_first_film"
+    t.boolean "academy_award"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
     t.integer "album_count"
     t.boolean "grammy_winner"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "movies", force: :cascade do |t|
+    t.string "name"
+    t.integer "actor_id"
+    t.integer "year"
+    t.boolean "academy_award"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
