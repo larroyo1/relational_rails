@@ -4,8 +4,6 @@
   <thead>
     <tr>
       <th>Title</th>
-      <th>Year</th>
-      <th>Lead Actor</th>
     </tr>
   </thead>
 
@@ -13,8 +11,6 @@
     <% @movies.each do |movie| %>
       <tr>
         <td><%= movie.name %></td>
-        <td><%= movie.year %></td>
-        <td><%= movie.actor.name %></td>
       </tr>
     <% end %>
   </tbody>
