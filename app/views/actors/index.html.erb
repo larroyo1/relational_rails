@@ -2,11 +2,6 @@
 
 <ol>
 <% @actors.each do |actor| %>
-<li><%= actor.name %></li>
+<li><%= link_to "#{actor.name}", "/actors/#{actor.id}" %></li>
 <% end  %>
 </ol>
-
-<!-- <h1>MOVIES</h1>
-<% @movies.each do |movie| %>
-<%= movie.name %>
-<% end  %> -->

@@ -20,7 +20,6 @@ RSpec.describe 'artists index page' do
     artist1 = create(:artist)
 
     visit "/artists/#{artist1.id}"
-    save_and_open_page
     expect(page).to have_content(artist1.name)
     expect(page).to have_content(artist1.debut_year)
     expect(page).to have_content(artist1.grammy_winner)

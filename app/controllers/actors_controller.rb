@@ -2,6 +2,9 @@ class ActorsController < ApplicationController
 
   def index
     @actors = Actor.all
-    @movies = Movie.all
+  end
+
+  def show
+    @actor = Actor.find(params[:id])
   end
 end
