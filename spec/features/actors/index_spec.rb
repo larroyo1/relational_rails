@@ -20,10 +20,8 @@ RSpec.describe 'actors index page' do
 
       visit "/actors/#{actor1.id}"
       expect(page).to have_content(actor1.name)
-      expect(page).to have_content(actor1.debut_year)
-      expect(page).to
-
-      have_content(actor1.academy_award)
+      expect(page).to have_content(actor1.year_first_film)
+      expect(page).to have_content(actor1.academy_award)
     end
 
 end

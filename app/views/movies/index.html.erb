@@ -1,17 +1,18 @@
 <h1>Movies</h1>
 
 <table>
-  <thead>
-    <tr>
-      <th>Title</th>
+  <tr>
+    <th>Name</th>
+    <th>Year</th>
+    <th>Academy Award</th>
     </tr>
-  </thead>
+    <tr>
+<% @movies.each do |movie| %>
+<td><%= link_to "#{movie.name}", "/movies/#{movie.id}" %></td>
 
-  <tbody>
-    <% @movies.each do |movie| %>
-      <tr>
-        <td><%= movie.name %></td>
-      </tr>
-    <% end %>
-  </tbody>
+<td><%= movie.year %></td>
+
+<td><%= movie.academy_award %></td>
+  </tr>
+<% end  %>
 </table>
