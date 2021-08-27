@@ -35,9 +35,9 @@ movie15 = FactoryBot.create(:movie, actor: actor5)
 
 artist1 = FactoryBot.create(:artist)
 artist2 = FactoryBot.create(:artist)
-artists3 = FactoryBot.create(:artist)
-artists4 = FactoryBot.create(:artist)
-artists5 = FactoryBot.create(:artist)
+artist3 = FactoryBot.create(:artist)
+artist4 = FactoryBot.create(:artist)
+artist5 = FactoryBot.create(:artist)
 
 #songs
 
