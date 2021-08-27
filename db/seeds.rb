@@ -1,8 +1,69 @@
 require 'factory_bot_rails'
 
-FactoryBot.build_list(:actor, 5)
+Actor.destroy_all
+Movie.destroy_all
 
-puts "created #{Actor.count} Actors"
+FactoryBot.create_list(:actor, 5)
+
+# actor1 = FactoryBot.create(:actor)
+# actor2 = FactoryBot.create(:actor)
+# actor3 = FactoryBot.create(:actor)
+# actor4 = FactoryBot.create(:actor)
+# actor5= FactoryBot.create(:actor)
+
+FactoryBot.create_list(:movie, 50)
+
+# movie1 = FactoryBot.create(:movie)
+# movie2 = FactoryBot.create(:movie)
+# movie3 = FactoryBot.create(:movie)
+# movie4 = FactoryBot.create(:movie)
+# movie5 = FactoryBot.create(:movie)
+# movie6 = FactoryBot.create(:movie)
+# movie7 = FactoryBot.create(:movie)
+# movie8 = FactoryBot.create(:movie)
+# movie9 = FactoryBot.create(:movie)
+# movie10 = FactoryBot.create(:movie)
+# movie11 = FactoryBot.create(:movie)
+# movie12 = FactoryBot.create(:movie)
+# movie13 = FactoryBot.create(:movie)
+# movie14 = FactoryBot.create(:movie)
+# movie15 = FactoryBot.create(:movie)
+# movie16 = FactoryBot.create(:movie)
+# movie17 = FactoryBot.create(:movie)
+# movie18 = FactoryBot.create(:movie)
+# movie19 = FactoryBot.create(:movie)
+# movie20 = FactoryBot.create(:movie)
+# movie21 = FactoryBot.create(:movie)
+# movie22 = FactoryBot.create(:movie)
+# movie23 = FactoryBot.create(:movie)
+# movie24 = FactoryBot.create(:movie)
+# movie25 = FactoryBot.create(:movie)
+# movie26 = FactoryBot.create(:movie)
+# movie27 = FactoryBot.create(:movie)
+# movie28 = FactoryBot.create(:movie)
+# movie29 = FactoryBot.create(:movie)
+# movie30 = FactoryBot.create(:movie)
+# movie31 = FactoryBot.create(:movie)
+# movie32 = FactoryBot.create(:movie)
+# movie33 = FactoryBot.create(:movie)
+# movie34 = FactoryBot.create(:movie)
+# movie35 = FactoryBot.create(:movie)
+# movie36 = FactoryBot.create(:movie)
+# movie37 = FactoryBot.create(:movie)
+# movie38 = FactoryBot.create(:movie)
+# movie39 = FactoryBot.create(:movie)
+# movie40 = FactoryBot.create(:movie)
+# movie41 = FactoryBot.create(:movie)
+# movie42 = FactoryBot.create(:movie)
+# movie43 = FactoryBot.create(:movie)
+# movie44 = FactoryBot.create(:movie)
+# movie45 = FactoryBot.create(:movie)
+# movie46 = FactoryBot.create(:movie)
+# movie47 = FactoryBot.create(:movie)
+# movie48 = FactoryBot.create(:movie)
+# movie49 = FactoryBot.create(:movie)
+# movie50 = FactoryBot.create(:movie)
+
 
 # actor1 = Actor.create(name: "Chris Evans", year_first_film: 1997, academy_award: FALSE)
 # actor2 = Actor.create(name: "Robert Downey, Jr.", year_first_film: 1970, academy_award: TRUE)
@@ -19,5 +80,7 @@ puts "created #{Actor.count} Actors"
 # actor13 = Actor.create(name: "Matt Damon", year_first_film: 1988, academy_award: TRUE)
 # actor14 = Actor.create(name: "Will Smith", year_first_film: 1993, academy_award: TRUE)
 # actor15 = Actor.create(name: "Paul Rudd", year_first_film: 1995, academy_award: FALSE)
-#
+
 # Movie.create(name: "Biodiversity: Wild About Life!", year: 1997, academy_award: false, actor_id: actor1.id)
+
+puts "created #{Actor.count} Actors and #{Movie.count} Movies"
