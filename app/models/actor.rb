@@ -1,2 +1,3 @@
-class Actor < ApplicationController
-end 
+class Actor < ApplicationRecord
+  has_many :movies
+end
