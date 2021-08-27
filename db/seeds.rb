@@ -2,6 +2,8 @@ require 'factory_bot_rails'
 
 Actor.destroy_all
 Movie.destroy_all
+Artist.destroy_all
+Song.destroy_all
 
 # FactoryBot.create_list(:actor, 5)
 
@@ -134,3 +136,5 @@ Song.create(name: "Heartbreaker", length: 317, top_100: TRUE, artist_id: artist1
 Song.create(name: "Paranoid", length: 236, top_100: TRUE, artist_id: artist15.id)
 Song.create(name: "War Pigs", length: 359, top_100: TRUE, artist_id: artist15.id)
 Song.create(name: "Iron Man", length: 217, top_100: TRUE, artist_id: artist15.id)
+
+puts "created #{Artist.count} Artists and #{Song.count} Songs"
