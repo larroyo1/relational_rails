@@ -5,3 +5,5 @@
 <p><b>Academy Award status:</b> <%= @actor.academy_award %></p>
 <p><b>Movies:</b> <%= @actor.movie_count %></p>
 <p><b>ID:</b> <%= @actor.id %></p>
+
+<%= link_to 'Click to view movies by this actor' , "/actors/#{@actor.id}/movies" %>
