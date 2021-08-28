@@ -1,0 +1,17 @@
+<h1>Movies by <%= "#{@actors.name}" %></h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Year</th>
+    <th>Academy Award</th>
+  </tr>
+    <tr>
+<% test= @actors.movies.each do |movie| %>
+  <td><%= link_to "#{movie.name}", "/movies/#{movie.id}" %></td>
+  <td><%= movie.year %></td>
+  <td><%= movie.academy_award %></td>
+  </tr>
+
+<% end  %>
+</table>

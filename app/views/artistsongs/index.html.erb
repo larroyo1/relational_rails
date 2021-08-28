@@ -1,0 +1,17 @@
+<h1>Songs by <%= "#{@artists.name}" %></h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Top 100</th>
+    <th>Length</th>
+  </tr>
+    <tr>
+<% test= @artists.songs.each do |song| %>
+  <td><%= link_to "#{song.name}", "/songs/#{song.id}" %></td>
+  <td><%= song.top_100 %></td>
+  <td><%= song.length %></td>
+  </tr>
+
+<% end  %>
+</table>
