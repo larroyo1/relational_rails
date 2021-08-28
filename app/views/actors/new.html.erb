@@ -1,0 +1,14 @@
+<h1>New Actor</h1>
+
+<%= form_for(@new_actor) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :year_first_film %>
+  <%= f.text_field :year_first_film %>
+
+  <%= f.label :academy_award %>
+  <%= f.text_field :academy_award %>
+
+  <%= f.submit  "Create"%>
+<% end %>
