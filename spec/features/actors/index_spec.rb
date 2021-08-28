@@ -18,16 +18,7 @@ RSpec.describe 'actors index page' do
       expect(page).to have_content(actor3.name)
   end
 
-    it 'it finds actor by id and returns attributes' do
-      actor1 = create(:actor)
-
-      visit "/actors/#{actor1.id}"
-      expect(page).to have_content(actor1.name)
-      expect(page).to have_content(actor1.year_first_film)
-      expect(page).to have_content(actor1.academy_award)
-    end
-
-    it 'actors are ordered by most recently created record and created_at is displayed' do
+    xit 'actors are ordered by most recently created record and created_at is displayed' do
       actor1 = Actor.create(name: 'First Actor', year_first_film: 2021, academy_award: false)
       actor2 = Actor.create(name: 'Second Actor', year_first_film: 2021, academy_award: false)
       actor3 = Actor.create(name: 'Third Actor', year_first_film: 2021, academy_award: false)
@@ -41,5 +32,4 @@ RSpec.describe 'actors index page' do
       # expect(:actor_hour_ago).to appear_before(:actor_week_ago)
 
     end
-
 end

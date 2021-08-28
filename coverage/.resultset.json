@@ -1,7 +1,107 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/environment.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/spec_helper.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -10,7 +110,7 @@
           1
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/application.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/application.rb": {
         "lines": [
           1,
           null,
@@ -47,7 +147,7 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/boot.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -55,7 +155,7 @@
           1
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/environments/test.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -105,7 +205,7 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/initializers/application_controller_renderer.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -117,7 +217,7 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/initializers/assets.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -135,7 +235,7 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/initializers/backtrace_silencers.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -146,7 +246,7 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/initializers/content_security_policy.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -175,7 +275,7 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/initializers/cookies_serializer.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/initializers/cookies_serializer.rb": {
         "lines": [
           null,
           null,
@@ -184,7 +284,7 @@
           1
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/initializers/filter_parameter_logging.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -192,7 +292,7 @@
           1
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/initializers/inflections.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -212,7 +312,7 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/initializers/mime_types.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -220,7 +320,7 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/initializers/wrap_parameters.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -238,7 +338,7 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/factories/actor.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/factories/actor.rb": {
         "lines": [
           1,
           1,
@@ -249,7 +349,37 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/models/actor.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/models/actor.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/factories/artist.rb": {
+        "lines": [
+          1,
+          1,
+          5,
+          5,
+          5,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/models/artist.rb": {
         "lines": [
           1,
           1,
@@ -260,45 +390,7 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/factories/artist.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/models/artist.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/factories/movie.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/factories/song.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/factories/movie.rb": {
         "lines": [
           1,
           1,
@@ -310,14 +402,26 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/models/song.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/factories/song.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/models/song.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/config/routes.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/config/routes.rb": {
         "lines": [
           1,
           null,
@@ -327,12 +431,14 @@
           1,
           1,
           1,
-          null,
-          1,
-          1,
-          1,
           1,
           null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
           1,
           1,
           null,
@@ -345,59 +451,94 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/helpers/application_helper.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/helpers/actormovies_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/helpers/artists_songs_helper.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/helpers/home_helper.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/helpers/artists_songs_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/models/movie_spec.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/helpers/artistsongs_helper.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          2,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/models/movie.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
           1,
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/models/song_spec.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/helpers/home_helper.rb": {
         "lines": [
-
+          1,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/features/artists/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/controllers/artists_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
         ]
       }
     },
-    "timestamp": 1630173309
+    "timestamp": 1630189664
   }
 }
