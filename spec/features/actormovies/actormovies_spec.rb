@@ -7,8 +7,9 @@ RSpec.describe 'movies by actor page' do
     actor = create(:actor)
     movie = create(:movie, actor_id: actor.id)
 
-    visit "actors/#{actor.id}/movies"
+    visit "/actors/#{actor.id}/movies"
 
+    expect(current_path).to eq("/actors/#{actor.id}/movies")
     expect(page).to have_content(movie.name)
     expect(page).to have_content(movie.year)
     expect(page).to have_content(movie.academy_award)

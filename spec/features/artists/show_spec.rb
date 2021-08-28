@@ -7,8 +7,9 @@ RSpec.describe 'artists show page' do
 
     visit "/artists/#{artist.id}"
 
+    expect(current_path).to eq("/artists/#{artist.id}")
     expect(page).to have_content(artist.name)
     expect(page).to have_content(artist.debut_year)
     expect(page).to have_content(artist.grammy_winner)
-  end 
+  end
 end
