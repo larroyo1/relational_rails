@@ -15,14 +15,4 @@ RSpec.describe 'movies index page' do
     expect(page).to have_content(movie2.name)
     expect(page).to have_content(movie3.name)
   end
-
-  it 'it finds movie by id and returns attributes' do
-    movie1 = create(:movie)
-
-    visit "/movies/#{movie1.id}"
-    expect(page).to have_content(movie1.name)
-    expect(page).to have_content(movie1.year)
-    expect(page).to have_content(movie1.academy_award)
-
-  end
 end
