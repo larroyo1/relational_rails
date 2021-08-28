@@ -242,9 +242,9 @@
         "lines": [
           1,
           1,
-          9,
-          9,
-          9,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -253,6 +253,10 @@
         "lines": [
           1,
           1,
+          null,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -267,9 +271,9 @@
         "lines": [
           1,
           1,
-          9,
-          9,
-          9,
+          1,
+          1,
+          1,
           null,
           null,
           null
@@ -286,9 +290,9 @@
         "lines": [
           1,
           1,
-          5,
-          5,
-          5,
+          1,
+          1,
+          1,
           1,
           null,
           null
@@ -298,9 +302,9 @@
         "lines": [
           1,
           1,
-          5,
-          5,
-          5,
+          1,
+          1,
+          1,
           1,
           null,
           null
@@ -323,10 +327,20 @@
           1,
           1,
           1,
+          null,
           1,
           1,
           1,
           1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
           null,
           null
         ]
@@ -349,131 +363,19 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/features/artists/index_spec.rb": {
+      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/models/movie_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
           null,
           null,
           1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/features/movies/index_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/features/songs/index_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/controllers/actors_controller.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/controllers/artists_controller.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
+          2,
           null,
           null
         ]
@@ -490,34 +392,12 @@
           null
         ]
       },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/controllers/movies_controller.rb": {
+      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/spec/models/song_spec.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/matthewholmes/turing/mod_2/projects/relational_rails/app/controllers/songs_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
+
         ]
       }
     },
-    "timestamp": 1630110734
+    "timestamp": 1630173309
   }
 }

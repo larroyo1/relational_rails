@@ -1,8 +1,9 @@
 <h1>Actors</h1>
 
 <ol>
-<% @actors.each do |actor| %>
-<li><%= link_to "#{actor.name}", "/actors/#{actor.id}" %></li>
+<% @actors.order('created_at DESC').each do |actor| %>
+<li><%= link_to "#{actor.name}", "/actors/#{actor.id}" %><%= " was created_at #{actor.created_at}." %></li>
+
 <% end  %>
 </ol>
 
