@@ -1,8 +1,8 @@
 <h1>Artists</h1>
 
 <ol>
-<% @artists.each do |artist| %>
-<li><%= link_to "#{artist.name}", "/artists/#{artist.id}" %></li>
+<% @artists.order('created_at DESC').each do |artist| %>
+<li><%= link_to "#{artist.name}", "/artists/#{artist.id}" %><%= " was created_at #{artist.created_at}." %></li>
 <% end  %>
 </ol>
 
