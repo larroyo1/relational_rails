@@ -1,0 +1,14 @@
+<h1>New Artist</h1>
+
+<%= form_for(@new_artist) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  
+  <%= f.label :debut_year %>
+  <%= f.text_field :debut_year %>
+
+  <%= f.label :grammy_winner %>
+  <%= f.text_field :grammy_winner %>
+
+  <%= f.submit  "Create"%>
+<% end %>
