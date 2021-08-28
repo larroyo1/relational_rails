@@ -8,5 +8,7 @@ Rails.application.routes.draw do
   get '/artists/:id', to: 'artists#show'
   get '/actors/:id', to: 'actors#show'
   get '/songs', to: 'songs#index'
+  get '/movies/:id', to: 'movies#show'
+  get '/songs/:id', to: 'songs#show'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
