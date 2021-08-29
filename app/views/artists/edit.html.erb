@@ -1,15 +1,17 @@
 <h1>Update Artist</h1>
 
 <!--form_for(@new_artist)??-->
-<%= form_with url: "/artists/#{@artist.id}", method: :patch, local:true do |form| %>
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+<form>
+<%= form_for (@artist.id) do |form| %>
+<%= form.label :name %>
+<%= form.text_field :name %>
 
-    <%= form.label :debut_year %>
-    <%= form.text_field :debut_year %>
+<%= form.label :debut_year %>
+<%= form.text_field :debut_year %>
 
-    <%= form.label :grammy_winner %>
-    <%= form.text_field :grammy_winner %>
+<%= form.label :grammy_winner %>
+<%= form.text_field :grammy_winner %>
 
-    <%= form.submit "Submit changes" %>
+<%= form.submit "Submit changes" %>
 <% end %>
+</form>
