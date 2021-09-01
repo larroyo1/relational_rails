@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   post '/actors', to: 'actors#create'
   get '/actors', to: 'actors#index'
   get '/actors/:id', to: 'actors#show'
+  #same issue as artists/ temporary fix until refactor
+  resources :actors
 
   get '/actors/:id/movies/new', to: 'movies#new'
   post '/movies', to: 'movies#create'
