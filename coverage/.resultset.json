@@ -342,9 +342,9 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
+          10,
+          10,
+          10,
           null,
           null
         ]
@@ -355,7 +355,7 @@
           1,
           null,
           1,
-          0,
+          2,
           null,
           null
         ]
@@ -371,9 +371,9 @@
         "lines": [
           1,
           1,
-          5,
-          5,
-          5,
+          11,
+          11,
+          11,
           null,
           null,
           null
@@ -385,7 +385,7 @@
           1,
           null,
           1,
-          1,
+          2,
           null,
           null
         ]
@@ -394,9 +394,9 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
+          6,
+          6,
+          6,
           1,
           null,
           null
@@ -406,9 +406,9 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
+          7,
+          7,
+          7,
           1,
           null,
           null
@@ -481,6 +481,86 @@
           null
         ]
       },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/features/actors/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/features/actors/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/features/artists/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/features/artists/show_spec.rb": {
         "lines": [
           1,
@@ -495,6 +575,238 @@
           1,
           1,
           1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/features/artistsongs/artistsongs_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/features/movies/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/features/movies/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/features/songs/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/features/songs/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/models/actor_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/models/artist_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/models/movie_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/models/movie.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/spec/models/song_spec.rb": {
+        "lines": [
+
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/controllers/actormovies_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/controllers/actors_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
           null,
           null
         ]
@@ -532,13 +844,44 @@
           null
         ]
       },
-      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/controllers/application_controller.rb": {
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/controllers/artistsongs_controller.rb": {
         "lines": [
           1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/controllers/movies_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/luisarroyo/m2/projects/relational_rails/movies_songs/app/controllers/songs_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1630189664
+    "timestamp": 1630355591
   }
 }
