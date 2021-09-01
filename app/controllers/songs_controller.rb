@@ -8,13 +8,15 @@ class SongsController < ApplicationController
   end
 
   def new
-    @new_song = Song.new
+    @artist = Artist.find(params[:id])
+    @new_song = @artist.song.new
   end
 
   def create
-    song = Song.new(song_params)
+    @artist = Artist.find(params[:id])
+    @new_song = @aritst.song.new(song_params)
 
-    if song.save
+    if @new_song.save
       redirect_to "/artists/:id/songs"
     else
       redirect_to '/artists/:id/songs/new'
