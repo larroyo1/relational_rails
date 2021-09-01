@@ -7,3 +7,5 @@
 <p><b>ID:</b> <%= @actor.id %></p>
 
 <%= link_to 'Click to view movies by this actor' , "/actors/#{@actor.id}/movies" %>
+</br></br>
+<%= link_to "Click to edit this artist", "/actors/#{@actor.id}/edit" %>

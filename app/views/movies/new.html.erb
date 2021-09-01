@@ -1,0 +1,16 @@
+<h1>Create New Movie</h1>
+
+<%= form_for(@new_movie) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :year %>
+  <%= f.text_field :year %>
+
+  <%= f.label :academy_award %>
+  <%= f.text_field :academy_award %>
+
+  <%= f.submit  "Create"%>
+<% end %>
+
+<%= link_to "Click to add a movie by this actor", "/actors/#{@actors.id}/movies/new" %>

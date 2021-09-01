@@ -14,14 +14,4 @@ RSpec.describe 'songs index page' do
     expect(page).to have_content(song2.name)
     expect(page).to have_content(song3.name)
   end
-
-  it 'it finds song by id and returns attributes' do
-    song1 = create(:song)
-
-    visit "/songs/#{song1.id}"
-    expect(page).to have_content(song1.name)
-    expect(page).to have_content(song1.top_100)
-    expect(page).to have_content(song1.length)
-
-  end
 end
