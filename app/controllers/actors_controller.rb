@@ -12,6 +12,16 @@ class ActorsController < ApplicationController
     @new_actor = Actor.new
   end
 
+  def edit
+    @actor = Actor.find(params[:id])
+  end
+
+  def update
+    @actor = Actor.find(params[:id])
+    @actor.update(actor_params)
+    redirect_to "/actors/#{@actor.id}"
+  end
+
   def create
     actor = Actor.new(actor_params)
 
