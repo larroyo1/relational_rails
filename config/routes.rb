@@ -17,10 +17,14 @@ Rails.application.routes.draw do
   get '/actors', to: 'actors#index'
   get '/actors/:id', to: 'actors#show'
 
+  get '/actors/:id/movies/new', to: 'movies#new'
+  post '/movies', to: 'movies#create'
   get '/movies', to: 'movies#index'
   get '/movies/:id', to: 'movies#show'
   get 'actors/:id/movies', to: 'actormovies#index'
 
+  get '/artists/:id/songs/new', to: 'songs#new'
+  post '/songs', to: 'songs#create'
   get '/songs', to: 'songs#index'
   get '/songs/:id', to: 'songs#show'
 
