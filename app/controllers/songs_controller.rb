@@ -9,12 +9,12 @@ class SongsController < ApplicationController
 
   def new
     @artist = Artist.find(params[:id])
-    @new_song = @artist.song.new
+    @new_song = @artist.songs.new
   end
 
   def create
     @artist = Artist.find(params[:id])
-    @new_song = @aritst.song.new(song_params)
+    @new_song = @artist.songs.new(song_params)
 
     if @new_song.save
       redirect_to "/artists/:id/songs"
