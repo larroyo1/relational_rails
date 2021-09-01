@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   post '/artists', to: 'artists#create'
   get '/artists', to: 'artists#index'
   get '/artists/:id', to: 'artists#show'
+  delete '/artists/:id', to: 'artists#destroy'
   #techincal debt
     # undefined method aritst_path
     # using resources creates aritsts_path
@@ -16,6 +17,7 @@ Rails.application.routes.draw do
   post '/actors', to: 'actors#create'
   get '/actors', to: 'actors#index'
   get '/actors/:id', to: 'actors#show'
+  delete '/actors/:id', to: 'actors#destroy'
   #same issue as artists/ temporary fix until refactor
   resources :actors
 
