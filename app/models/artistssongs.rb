@@ -1,2 +1,0 @@
-class ArtistsSongs < ApplicationRecord
-end
