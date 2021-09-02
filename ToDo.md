@@ -4,9 +4,8 @@
 <%= button_to "Delete this actor", "/actors/#{@actor.id}", method: :delete %>
 
 2. When creating a new child from parent, getting "Couldn't find Artist without an ID" error
+object not being created with foreign key?
 
 "song"=>{"name"=>"Dont Stop Me Now ", "top_100"=>"True", "length"=>"320"}, "commit"=>"Create"}
 
-3. Create spec tests for destroying children
-
-4. Activerecord for sorting children alphabetically
+3. Activerecord for sorting children alphabetically

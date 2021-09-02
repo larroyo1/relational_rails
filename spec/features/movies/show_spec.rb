@@ -26,14 +26,14 @@ RSpec.describe 'movies show page' do
     expect(page).to_not have_content(false)
   end
 
-  it 'has a button to destroy artist' do
-    actor = create(:actor)
+  it 'has a button to destroy a movie' do
+    movie = create(:movie)
 
-    visit "/actors/#{actor.id}"
+    visit "/movies/#{movie.id}"
 
-    expect(current_path).to eq("/actor/#{actor.id}")
-    expect(page).to have_content(actor.name)
-    click_button "Delete this actor"
-    expect(page).to_not have_content(actor.name)
+    expect(current_path).to eq("/movies/#{movie.id}")
+    expect(page).to have_content(movie.name)
+    click_button "Delete this movie"
+    expect(page).to_not have_content(movie.name)
   end
 end
