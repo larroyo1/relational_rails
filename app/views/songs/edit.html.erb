@@ -1,0 +1,14 @@
+<h1>Update Song</h1>
+
+<%= form_for (@song) do |form| %>
+<%= form.label :name %>
+<%= form.text_field :name %><br>
+
+<%= form.label :length %>
+<%= form.text_field :length %><br>
+
+<%= form.label :top_100 %>
+<%= form.text_field :top_100 %><br>
+
+<%= form.submit "Submit changes" %>
+<% end %>

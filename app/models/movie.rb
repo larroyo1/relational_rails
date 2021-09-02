@@ -5,4 +5,8 @@ class Movie < ApplicationRecord
                         :academy_award
 
   belongs_to :actor
+
+  def alphabatize
+    @movies.order(:name)
+  end
 end

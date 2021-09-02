@@ -9,6 +9,5 @@ RSpec.describe Actor do
     movie3 = actor.movies.create(name: 'The Worst Movie', year: 1999, academy_award: true)
     expect(actor.movie_count).to eq(3)
   end
-
-
+  
 end

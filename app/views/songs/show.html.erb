@@ -1,6 +1,10 @@
 <h1>Song Info</h1>
 
+<% if @song.top_100 %>
 <p>Song Name: <%= @song.name %></p>
 <p><%= @song.name %> is <%= @song.length %> seconds long.</p>
 <p>Top 100 status: <%= @song.top_100 %></p>
 <p>ID: <%= @song.id %></p>
+<% end %>
+
+<%= link_to 'Click to edit this song', "/songs/#{@song.id}/edit" %>

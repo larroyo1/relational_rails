@@ -12,6 +12,16 @@ class SongsController < ApplicationController
     @new_song = @artist.songs.new
   end
 
+  def edit
+    @song = Song.find(params[:id])
+  end
+
+  def update
+    @song = Song.find(params[:id])
+    @song.update(song_params)
+    redirect_to "/songs/#{@song.id}"
+  end
+
   def create
     @artist = Artist.find(params[:id])
     @new_song = @artist.songs.new(song_params)
@@ -21,6 +31,12 @@ class SongsController < ApplicationController
     else
       redirect_to '/artists/:id/songs/new'
     end
+  end
+
+  def destroy
+    song = Song.find(params[:id])
+    song.destroy
+    redirect_to "/songs"
   end
 
   private

@@ -1,0 +1,14 @@
+<h1>Update Movie</h1>
+
+<%= form_for (@movie) do |form| %>
+<%= form.label :name %>
+<%= form.text_field :name %><br>
+
+<%= form.label :year %>
+<%= form.text_field :year %><br>
+
+<%= form.label :academy_award %>
+<%= form.text_field :academy_award %><br>
+
+<%= form.submit "Submit changes" %>
+<% end %>
