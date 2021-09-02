@@ -1,6 +1,10 @@
 <h1>Movie Info</h1>
 
+<% if @movie.academy_award %>
 <p>Movie Name: <%= @movie.name %></p>
 <p><%= @movie.name %> debuted in <%= @movie.year %>.</p>
 <p>Academy Award status: <%= @movie.academy_award %></p>
 <p>ID: <%= @movie.id %></p>
+<% end %>
+
+<%= link_to 'Click to edit this movie', "/movies/#{@movie.id}/edit" %>

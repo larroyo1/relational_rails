@@ -27,6 +27,8 @@ Rails.application.routes.draw do
   get '/movies/:id', to: 'movies#show'
   get 'actors/:id/movies', to: 'actormovies#index'
 
+  resources :movies
+  resources :songs
   get '/artists/:id/songs/new', to: 'songs#new'
   post '/songs', to: 'songs#create'
   get '/songs', to: 'songs#index'

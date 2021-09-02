@@ -7,4 +7,6 @@
 
 "song"=>{"name"=>"Dont Stop Me Now ", "top_100"=>"True", "length"=>"320"}, "commit"=>"Create"}
 
-3. Create spec tests for edit, create, and destroy
+3. Create spec tests for edit and destroy child
+
+4. MVC for edit and destroy child

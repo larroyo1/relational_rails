@@ -32,4 +32,15 @@ RSpec.describe 'actors index page' do
       # expect(:actor_hour_ago).to appear_before(:actor_week_ago)
 
     end
+
+    it 'has a button to destroy actor' do
+      actor1 = create(:actor)
+
+      visit "/actors/#{actor1.id}"
+
+      expect(current_path).to eq("/actors/#{actor1.id}")
+      expect(page).to have_content(actor1.name)
+      click_button "Delete this actor"
+      expect(page).to_not have_content(actor1.name)
+    end
 end
