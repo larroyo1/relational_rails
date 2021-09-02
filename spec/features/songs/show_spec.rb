@@ -25,4 +25,15 @@ RSpec.describe 'song show page' do
     visit '/songs'
     expect(page).to_not have_content(false)
   end
+
+  it 'has a button to destroy a song' do
+    song = create(:artist)
+
+    visit "/songs/#{song.id}"
+
+    expect(current_path).to eq("/songs/#{song.id}")
+    expect(page).to have_content(song.name)
+    click_button "Delete this song"
+    expect(page).to_not have_content(song.name)
+  end
 end

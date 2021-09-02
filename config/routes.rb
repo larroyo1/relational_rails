@@ -26,6 +26,7 @@ Rails.application.routes.draw do
   get '/movies', to: 'movies#index'
   get '/movies/:id', to: 'movies#show'
   get 'actors/:id/movies', to: 'actormovies#index'
+  delete 'movies/:id', to: 'movies#destroy'
 
   resources :movies
   resources :songs
@@ -33,6 +34,7 @@ Rails.application.routes.draw do
   post '/songs', to: 'songs#create'
   get '/songs', to: 'songs#index'
   get '/songs/:id', to: 'songs#show'
+  delete '/songs/:id', to: 'songs#destroy'
 
 
   #get '/artists/new', to: 'artists#new'
