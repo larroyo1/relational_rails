@@ -7,6 +7,6 @@
 
 "song"=>{"name"=>"Dont Stop Me Now ", "top_100"=>"True", "length"=>"320"}, "commit"=>"Create"}
 
-3. Create spec tests for edit and destroy child
+3. Create spec tests for destroying children
 
-4. MVC for edit and destroy child
+4. Activerecord for sorting children alphabetically
